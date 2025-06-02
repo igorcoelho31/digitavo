@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digitavô - Aprenda Tecnologia no Seu Ritmo</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-kol9ORhUESaxGawQPVh4oQfNgpGxf1.png" alt="Digitavô Logo">
+                </div>
+                <nav class="nav">
+                    <a href="#cursos">Cursos</a>
+                    <a href="#sobre">Sobre Nós</a>
+                    <a href="#contato">Contato</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Aprenda Tecnologia no Seu Ritmo</h2>
+            <p>Um lugar seguro e amigável para descobrir como usar seu celular, conversar com a família e acessar serviços importantes online.</p>
+            <div class="hero-buttons">
+                <a href="#cursos" class="btn btn-primary">
+                    <i class="fas fa-play"></i>
+                    Começar Agora
+                </a>
+                <a href="#cursos" class="btn btn-secondary">
+                    <i class="fas fa-book-open"></i>
+                    Ver Cursos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="cursos" class="courses">
+        <div class="container">
+            <h3 class="section-title">O Que Você Vai Aprender</h3>
+            <p class="section-subtitle">Cursos práticos e fáceis de seguir, criados especialmente para você</p>
+            
+            <div class="courses-grid">
+                <div class="course-card card-orange">
+                    <div class="course-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Básicos do Celular</h3>
+                    <p>Aprenda a ligar, desligar e navegar pelo seu smartphone</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-star"></i> Como ligar e desligar</li>
+                        <li><i class="fas fa-star"></i> Tela inicial e aplicativos</li>
+                        <li><i class="fas fa-star"></i> Configurações básicas</li>
+                    </ul>
+                    <button class="btn open-modal" data-course="basicos">Saiba Mais</button>
+                </div>
+
+                <div class="course-card card-green">
+                    <div class="course-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <h3>Mensagens e Chamadas</h3>
+                    <p>Converse com família e amigos pelo WhatsApp e telefone</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-star"></i> Fazer e receber chamadas</li>
+                        <li><i class="fas fa-star"></i> Enviar mensagens</li>
+                        <li><i class="fas fa-star"></i> Fotos e vídeos</li>
+                    </ul>
+                    <button class="btn open-modal" data-course="mensagens">Saiba Mais</button>
+                </div>
+
+                <div class="course-card card-blue">
+                    <div class="course-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Internet e Navegação</h3>
+                    <p>Descubra como pesquisar e navegar na internet com segurança</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-star"></i> Como pesquisar no Google</li>
+                        <li><i class="fas fa-star"></i> Navegar com segurança</li>
+                        <li><i class="fas fa-star"></i> Baixar aplicativos</li>
+                    </ul>
+                    <button class="btn open-modal" data-course="internet">Saiba Mais</button>
+                </div>
+
+                <div class="course-card card-purple">
+                    <div class="course-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Redes Sociais</h3>
+                    <p>Conecte-se com família e amigos no Facebook e Instagram</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-star"></i> Criar perfil</li>
+                        <li><i class="fas fa-star"></i> Compartilhar fotos</li>
+                        <li><i class="fas fa-star"></i> Encontrar amigos</li>
+                    </ul>
+                    <button class="btn open-modal" data-course="redes">Saiba Mais</button>
+                </div>
+
+                <div class="course-card card-emerald">
+                    <div class="course-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Banco Digital</h3>
+                    <p>Acesse sua conta bancária e faça transferências pelo celular</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-star"></i> Consultar saldo</li>
+                        <li><i class="fas fa-star"></i> Fazer transferências</li>
+                        <li><i class="fas fa-star"></i> Pagar contas</li>
+                    </ul>
+                    <button class="btn open-modal" data-course="banco">Saiba Mais</button>
+                </div>
+
+                <div class="course-card card-rose">
+                    <div class="course-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3>Saúde e Transporte</h3>
+                    <p>Use aplicativos de telemedicina e transporte como Uber</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-star"></i> Consultas online</li>
+                        <li><i class="fas fa-star"></i> Chamar Uber/99</li>
+                        <li><i class="fas fa-star"></i> Delivery de remédios</li>
+                    </ul>
+                    <button class="btn open-modal" data-course="saude">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="why-choose">
+        <div class="container">
+            <h3 class="section-title">Por Que Escolher o Digitavô?</h3>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon" style="background: #d97706;">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h4>Feito com Carinho</h4>
+                    <p>Criado especialmente para pessoas da melhor idade, com linguagem simples e clara</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon" style="background: #10b981;">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h4>Passo a Passo</h4>
+                    <p>Aprenda no seu ritmo com vídeos e explicações detalhadas de cada função</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon" style="background: #3b82f6;">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h4>Suporte Humano</h4>
+                    <p>Nossa equipe está sempre pronta para ajudar quando você precisar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h3>Pronto Para Começar Sua Jornada Digital?</h3>
+            <p>Junte-se a milhares de pessoas que já descobriram como a tecnologia pode facilitar o dia a dia</p>
+            <a href="#cursos" class="btn btn-secondary" style="background: white; color: #d97706; border: 3px solid white;">
+                <i class="fas fa-play"></i>
+                Começar Gratuitamente
+            </a>
+        </div>
+    </section>
+
+    <footer id="contato" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-kol9ORhUESaxGawQPVh4oQfNgpGxf1.png" alt="Digitavô Logo" style="height: 60px;">
+                        <h4 style="margin-left: 16px; color: #d97706;">Digitavô</h4>
+                    </div>
+                    <p>Conectando gerações através da tecnologia, com carinho e paciência.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Cursos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#" class="open-modal" data-course="basicos">Básicos do Celular</a></li>
+                        <li><a href="#" class="open-modal" data-course="mensagens">WhatsApp</a></li>
+                        <li><a href="#" class="open-modal" data-course="internet">Internet</a></li>
+                        <li><a href="#" class="open-modal" data-course="banco">Banco Digital</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <ul class="footer-links">
+                        <li>📞 (21) 1234-5678</li>
+                        <li>📧 ajuda@digitavo.com.br</li>
+                        <li>🕒 Seg-Sex: 8h às 18h</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Digitavô. Feito com ❤️ para a melhor idade.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-overlay" id="modal-overlay"></div>
+
+    <div class="modal" id="modal-basicos">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-mobile-alt"></i> Básicos do Celular</h2>
+                <button class="close-modal"><i class="fas fa-times"></i></button>
+            </div>
+            
+            <div class="modal-video-section">
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                        title="Vídeo explicativo - Básicos do Celular"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="modal-content-section">
+                <div class="content-scroll">
+                    <h3>Como Funciona o Curso</h3>
+                    <p>Aqui você pode adicionar toda a explicação detalhada sobre como funciona o curso de Básicos do Celular. Este espaço tem scroll automático quando o conteúdo for maior que a área disponível.</p>
+                    
+                    <h4>O que você vai aprender:</h4>
+                    <ul class="content-list">
+                        <li><i class="fas fa-check-circle"></i> Como ligar e desligar seu celular corretamente</li>
+                        <li><i class="fas fa-check-circle"></i> Navegar pela tela inicial e entender os ícones</li>
+                        <li><i class="fas fa-check-circle"></i> Usar os botões principais do aparelho</li>
+                        <li><i class="fas fa-check-circle"></i> Ajustar configurações básicas como volume e brilho</li>
+                        <li><i class="fas fa-check-circle"></i> Gerenciar a bateria e carregamento</li>
+                        <li><i class="fas fa-check-circle"></i> Conectar-se ao Wi-Fi</li>
+                        <li><i class="fas fa-check-circle"></i> Organizar aplicativos na tela</li>
+                    </ul>
+
+                    <h4>Metodologia:</h4>
+                    <p>Nosso curso é dividido em módulos práticos, onde cada lição é explicada de forma simples e clara. Você aprenderá no seu próprio ritmo, com a possibilidade de repetir as lições quantas vezes precisar.</p>
+
+                    <h4>Duração:</h4>
+                    <p>O curso tem duração aproximada de 2 semanas, com aulas de 30 minutos cada. Você pode assistir quando quiser e quantas vezes precisar.</p>
+
+                    <h4>Requisitos:</h4>
+                    <p>Não é necessário conhecimento prévio. Apenas tenha seu celular em mãos e muita vontade de aprender!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-mensagens">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-comments"></i> Mensagens e Chamadas</h2>
+                <button class="close-modal"><i class="fas fa-times"></i></button>
+            </div>
+            
+            <div class="modal-video-section">
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                        title="Vídeo explicativo - Mensagens e Chamadas"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="modal-content-section">
+                <div class="content-scroll">
+                    <h3>Como Funciona o Curso</h3>
+                    <p>Aprenda a se comunicar com família e amigos através do seu celular. Este curso ensina desde chamadas básicas até o uso completo do WhatsApp.</p>
+                    
+                    <h4>O que você vai aprender:</h4>
+                    <ul class="content-list">
+                        <li><i class="fas fa-check-circle"></i> Como fazer e receber chamadas</li>
+                        <li><i class="fas fa-check-circle"></i> Enviar mensagens de texto (SMS)</li>
+                        <li><i class="fas fa-check-circle"></i> Instalar e usar o WhatsApp</li>
+                        <li><i class="fas fa-check-circle"></i> Enviar fotos e vídeos</li>
+                        <li><i class="fas fa-check-circle"></i> Fazer chamadas de vídeo</li>
+                        <li><i class="fas fa-check-circle"></i> Criar e participar de grupos</li>
+                        <li><i class="fas fa-check-circle"></i> Usar emojis e figurinhas</li>
+                    </ul>
+
+                    <p>Adicione aqui toda a explicação detalhada sobre o curso...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-internet">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-globe"></i> Internet e Navegação</h2>
+                <button class="close-modal"><i class="fas fa-times"></i></button>
+            </div>
+            
+            <div class="modal-video-section">
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                        title="Vídeo explicativo - Internet e Navegação"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="modal-content-section">
+                <div class="content-scroll">
+                    <h3>Como Funciona o Curso</h3>
+                    <p>Descubra o mundo da internet de forma segura e prática. Aprenda a pesquisar, navegar e usar a internet com confiança.</p>
+                    
+                    <h4>O que você vai aprender:</h4>
+                    <ul class="content-list">
+                        <li><i class="fas fa-check-circle"></i> Como acessar a internet</li>
+                        <li><i class="fas fa-check-circle"></i> Pesquisar no Google</li>
+                        <li><i class="fas fa-check-circle"></i> Navegar com segurança</li>
+                        <li><i class="fas fa-check-circle"></i> Baixar e instalar aplicativos</li>
+                        <li><i class="fas fa-check-circle"></i> Evitar golpes online</li>
+                    </ul>
+
+                    <p>Adicione aqui toda a explicação detalhada sobre o curso...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-redes">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-users"></i> Redes Sociais</h2>
+                <button class="close-modal"><i class="fas fa-times"></i></button>
+            </div>
+            
+            <div class="modal-video-section">
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                        title="Vídeo explicativo - Redes Sociais"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="modal-content-section">
+                <div class="content-scroll">
+                    <h3>Como Funciona o Curso</h3>
+                    <p>Conecte-se com família e amigos através das redes sociais. Aprenda a usar Facebook e Instagram de forma segura.</p>
+                    
+                    <h4>O que você vai aprender:</h4>
+                    <ul class="content-list">
+                        <li><i class="fas fa-check-circle"></i> Como criar perfis</li>
+                        <li><i class="fas fa-check-circle"></i> Encontrar amigos e familiares</li>
+                        <li><i class="fas fa-check-circle"></i> Compartilhar fotos e vídeos</li>
+                        <li><i class="fas fa-check-circle"></i> Configurações de privacidade</li>
+                        <li><i class="fas fa-check-circle"></i> Interagir com publicações</li>
+                    </ul>
+
+                    <p>Adicione aqui toda a explicação detalhada sobre o curso...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-banco">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-credit-card"></i> Banco Digital</h2>
+                <button class="close-modal"><i class="fas fa-times"></i></button>
+            </div>
+            
+            <div class="modal-video-section">
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                        title="Vídeo explicativo - Banco Digital"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="modal-content-section">
+                <div class="content-scroll">
+                    <h3>Como Funciona o Curso</h3>
+                    <p>Aprenda a usar o banco digital com segurança e praticidade. Gerencie suas finanças pelo celular.</p>
+                    
+                    <h4>O que você vai aprender:</h4>
+                    <ul class="content-list">
+                        <li><i class="fas fa-check-circle"></i> Como acessar sua conta</li>
+                        <li><i class="fas fa-check-circle"></i> Consultar saldo e extrato</li>
+                        <li><i class="fas fa-check-circle"></i> Fazer transferências</li>
+                        <li><i class="fas fa-check-circle"></i> Pagar contas e boletos</li>
+                        <li><i class="fas fa-check-circle"></i> Segurança financeira</li>
+                    </ul>
+
+                    <p>Adicione aqui toda a explicação detalhada sobre o curso...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-saude">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2><i class="fas fa-stethoscope"></i> Saúde e Transporte</h2>
+                <button class="close-modal"><i class="fas fa-times"></i></button>
+            </div>
+            
+            <div class="modal-video-section">
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                        title="Vídeo explicativo - Saúde e Transporte"
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="modal-content-section">
+                <div class="content-scroll">
+                    <h3>Como Funciona o Curso</h3>
+                    <p>Use aplicativos de saúde e transporte para facilitar seu dia a dia. Aprenda a usar telemedicina e aplicativos de transporte.</p>
+                    
+                    <h4>O que você vai aprender:</h4>
+                    <ul class="content-list">
+                        <li><i class="fas fa-check-circle"></i> Como agendar consultas online</li>
+                        <li><i class="fas fa-check-circle"></i> Participar de telemedicina</li>
+                        <li><i class="fas fa-check-circle"></i> Pedir medicamentos por delivery</li>
+                        <li><i class="fas fa-check-circle"></i> Chamar Uber ou 99</li>
+                        <li><i class="fas fa-check-circle"></i> Acompanhar entregas</li>
+                    </ul>
+
+                    <p>Adicione aqui toda a explicação detalhada sobre o curso...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

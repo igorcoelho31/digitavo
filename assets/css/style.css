@@ -410,6 +410,7 @@ body {
     display: block;
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
+    min-width: 0vh;
 }
 
 .modal-overlay.active {
@@ -868,5 +869,139 @@ body {
 
     .modal-footer {
         padding: 20px;
+    }
+}
+
+/* Adicionar após as regras existentes do hero */
+
+/* Substituir as regras CSS da seção how-to-watch */
+
+.how-to-watch {
+    padding: 96px 0;
+    background: #111827;
+    border-bottom: 3px solid #d97706;
+}
+
+.how-to-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 32px;
+    margin-top: 48px;
+}
+
+.how-to-card {
+    background: #1f2937;
+    border: 3px solid #4b5563;
+    border-radius: 16px;
+    padding: 32px;
+    transition: all 0.3s;
+    height: 100%;
+}
+
+.how-to-card:hover {
+    border-color: #d97706;
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+.how-to-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #374151;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+    font-size: 32px;
+    color: #d97706;
+}
+
+.how-to-card h4 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #f9fafb;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.how-to-list {
+    list-style: none;
+}
+
+.how-to-list li {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.list-term {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.list-term i {
+    color: #10b981;
+    font-size: 18px;
+    flex-shrink: 0;
+    width: 20px;
+    text-align: center;
+}
+
+.list-term span {
+    font-weight: bold;
+    color: #f9fafb;
+    font-size: 18px;
+}
+
+.list-desc {
+    color: #d1d5db;
+    font-size: 16px;
+    margin-left: 32px;
+    line-height: 1.4;
+}
+
+/* Responsive para a nova seção */
+@media (max-width: 768px) {
+    .how-to-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    
+    .how-to-card {
+        padding: 24px;
+    }
+    
+    .how-to-card h4 {
+        font-size: 22px;
+    }
+    
+    .list-term span {
+        font-size: 16px;
+    }
+    
+    .list-desc {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .how-to-card {
+        padding: 20px;
+    }
+    
+    .how-to-card h4 {
+        font-size: 20px;
+    }
+    
+    .list-term span {
+        font-size: 15px;
+    }
+    
+    .list-desc {
+        font-size: 14px;
+        margin-left: 28px;
     }
 }
